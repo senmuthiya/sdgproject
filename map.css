@@ -1,0 +1,150 @@
+body{
+  font-family:Helvetica,Arial;
+  font-size:16px;
+  padding:20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.menu {
+  float: left;
+  line-height: 50px;
+  margin: 0 4em;
+}
+
+/* Code to hover - Sen */
+.menu a:hover {
+  /* background-color: #FFFFFF; */
+   background-color: black;
+  /* border-bottom: 3px solid black; */
+
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: lighter;
+  padding: 0 20px;
+
+}
+
+#map-wrapper{
+  /* background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Map_of_USA_without_state_names.svg/2000px-Map_of_USA_without_state_names.svg.png') no-repeat, center, center; */
+  background: url('img/map.png') no-repeat, center;
+  background-size:contain;
+  /* width:1238px; */
+  width:1075px;
+  height:725px;
+  margin-top:0px;
+  /* position:relative; */
+  position:relative;
+}
+.picture{
+  /* background:#fff; */
+  /* background: black; */
+  background: white;
+
+  display:block;
+  float:left;
+  padding:.5%;
+  /* border:2px solid #000; */
+   /* border:2px solid white; */
+   border:3px solid black;
+  /* max-width:6%; */
+  max-width:8%;
+  position:absolute;
+  transition: all .2s ease-in-out;
+  cursor:pointer;
+}
+.picture:hover{
+  transform: rotate(0) scale(1.75);
+  z-index: 5;
+}
+.picture img{
+  display:block;
+  max-width:100%;
+  /* background:#ddd; */
+  /* background: black; */
+  background: white;
+}
+.picture .caption{
+  text-align:center;
+  padding:3px 0;
+  font-size: 6px;
+
+}
+/* MENA */
+.picture-1{
+  left:37%;
+  top:32%;
+  transform: rotate(17deg);
+}
+
+/* .picture-2{
+  left:85%;
+  top:45%;
+  /* z-index: 5; */
+  /* transform: rotate(15deg);
+} */
+
+/* OECD */
+.picture-3{
+  left:12%;
+  top:20%;
+  transform: rotate(-25deg);
+}
+/* Oceania */
+.picture-4{
+  left:77%;
+  top:45%;
+  transform: rotate(-20deg);
+}
+/* LAC */
+.picture-5{
+  left:13%;
+  top:48%;
+  transform: rotate(-27deg);
+}
+/* E.Europe & C.Asia */
+.picture-6{
+  left:49%;
+  top:18%;
+  transform: rotate(-20deg);
+}
+/* Africa */
+.picture-7{
+  left:35%;
+  top:50%;
+  transform: rotate(-10deg);
+}
+/* East & South Asia */
+.picture-8{
+  left:54%;
+  top:36%;
+  /* z-index: 5; */
+  transform: rotate(19deg);
+}
+/* Saturn */
+.picture-9{
+  left:60%;
+  top:36%;
+  transform: rotate(5deg);
+}
+/* Earth */
+.picture-10{
+  left:18%;
+  top:29%;
+  transform: rotate(35deg);
+}

@@ -1,0 +1,187 @@
+/* html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.wrapper img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+  z-index: 0;
+} */
+/* body {
+  background-image: url("https://images.all-free-download.com/images/graphiclarge/creative_yoga_and_sunset_vector_543896.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  opacity: 0.9;
+  
+} */
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 40%;
+}
+
+td, th {
+  /* border: 1px solid #dddddd; */
+  border: 1px solid steelblue;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  /* background-color: #dddddd; */
+  background-color: steelblue;
+}
+
+
+
+
+.nav{
+  position: fixed;
+  background: #fafafa;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid white;
+  z-index: 1;
+}
+
+.logo{
+  float: left;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 80px;
+  padding: 0 6em;
+}
+
+.menu {
+  float: left;
+  line-height: 50px;
+  margin: 0 2em;
+}
+
+/* Code to hover - Sen */
+.menu a:hover {
+  background-color: #FFFFFF;
+  /* border-bottom: 3px solid black; */
+
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-weight: lighter;
+  padding: 0 20px;
+
+}
+
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* z-index: -1; */
+}
+
+.header h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.header p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.header button {
+  color: #fff;
+  background: cornflowerblue;
+  padding: 18px 38px;
+  border: .5px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+
+h1, h3, h4, h5 {
+  text-align: center;
+}
+
+/* img {
+  width: 300px;
+  height: 300px;
+} */
+
+/* img {
+  width: 296px;
+  height: 300px;
+} */
+
+.goalslide {
+  width: 210px;
+  height: 300px;
+}
+
+.targetimage {
+  width: 300px;
+  height: 500px;
+}
+
+.slider{
+  width:100%;
+  height:300px;
+  border:0px solid #fff;;
+  outline:0px solid #999;
+  overflow: hidden;
+  margin:auto;
+
+  /* Sen code begins*/
+  float: none;
+  position: relative;
+  align-content: center;
+  right: -18%;
+  
+  
+  /* Sen code ends*/
+
+  /* background:radial-gradient(#9988ff, #aa66ff); */
+}
+
+.allpic{
+  width:75px;
+  height:300px;
+  background:#ccc;
+  margin:0px 0 0 0px;
+  /* float:left; */
+  float:left;
+  transition:all .5s ease-out;
+  overflow:hidden;
+  border:0px solid #fff;;
+  outline:0px solid #999;
+}
+
+.allpic:hover {
+  width:210px;
+}
