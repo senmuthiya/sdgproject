@@ -9,6 +9,12 @@ body {
   background: black; */
   color: black;
   background: white;
+   /* background: bisque; */
+}
+
+hr{
+  /* border: 1px solid red; */
+  border: 1px solid white;
 }
 
 #picbox1 {
@@ -60,4 +66,24 @@ body {
 #boxbuttons1 .button:hover {
 	background: #999;
 }
+
+#quoteButtons {
+	text-align: center;
+	margin: 20px;
+	display: block;
+}
+
+#quoteButtons .button {
+	text-transform: uppercase;
+	background:cornflowerblue;
+	padding: 5px 10px;
+	margin: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#quoteButtons .button:hover {
+	background: #999;
+}
+
 
