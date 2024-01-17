@@ -145,13 +145,16 @@ h1, h3, h4, h5 {
 }
 
 .targetimage {
-  width: 300px;
-  height: 500px;
+  /* width: 300px;
+  height: 500px; */
+  width: 205px;
+  height: 300px;
 }
 
 .slider{
-  width:100%;
-  height:300px;
+  /* width:100%; */
+  width:750px;
+  height:500px;
   border:0px solid #fff;;
   outline:0px solid #999;
   overflow: hidden;
@@ -161,7 +164,7 @@ h1, h3, h4, h5 {
   float: none;
   position: relative;
   align-content: center;
-  right: -18%;
+  /* right: -18%; */
   
   
   /* Sen code ends*/
@@ -170,8 +173,9 @@ h1, h3, h4, h5 {
 }
 
 .allpic{
-  width:75px;
-  height:300px;
+  width:205px;
+  /* height:300px; */
+  height:41px;
   background:#ccc;
   margin:0px 0 0 0px;
   /* float:left; */
@@ -183,5 +187,6 @@ h1, h3, h4, h5 {
 }
 
 .allpic:hover {
-  width:210px;
+  /* width:205px; */
+  height:300px;
 }
