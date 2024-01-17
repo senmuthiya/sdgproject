@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>SDGs</title>
+<title>Sen's SDGs Project</title>
 <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -32,13 +32,15 @@ h1, h2, h3, h4, h5, h6 {
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">Home</a>
+    <a href="#home" class="w3-bar-item w3-button">Sen's SDGs Project | Home</a>
     <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#goals" class="w3-bar-item w3-button">Goals</a>
-<!--       <a href="#game" class="w3-bar-item w3-button">Game</a> -->
-      <a href="#dataviz" class="w3-bar-item w3-button">Data</a>
+      <a href="#target" class="w3-bar-item w3-button">Target</a>
+      <a href="#quotes" class="w3-bar-item w3-button">Quotes</a>
+      <!-- <a href="#game" class="w3-bar-item w3-button">Game</a> -->
+      <a href="#dataviz" class="w3-bar-item w3-button">Data Analysis</a>
+      <a href="#mygoal" class="w3-bar-item w3-button">My Goal</a>
       <a href="#credit" class="w3-bar-item w3-button">Credit</a>
     </div>
   </div>
@@ -46,9 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:900px;min-width:200px" id="home">
-  <center><img class="w3-round w3-image w3-opacity-min" src="img/the-global-goals-grid-color.png" alt="SDGs Goal" width="900" height="100">
-  <h5>&nbsp;&nbsp;&nbsp;&nbsp;The United Nations Sustainable Development Goals for 2030 <br>-  An Educational Awareness Project</h5>
+  <center><img class="w3-round w3-image w3-opacity-min" src="/img/the-global-goals-grid-color.png" alt="SDGs Goal" width="900" height="100">
+  <h5>&nbsp;&nbsp;&nbsp;&nbsp;United Nations Sustainable Development Goals for 2030</h5>
   </center>
+   <br><br>
 </header>
 <hr>
 <!-- Page content -->
@@ -57,34 +60,42 @@ h1, h2, h3, h4, h5, h6 {
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
     <div class="w3-col m6 w3-padding-large w3-hide-small">
-     <img src="img/GOAL_4_TARGET_4.7.png" class="targetimage" alt="GOAL_4_TARGET_4.7" width="100" height="100">
+      <center>
+        <br><br><br><br>
+     <img src="/img/SDG_Icons_Inverted_Transparent_WEB-04.png" alt="GOAL_4" width="350" height="350">
+      </center>
     </div>
-
+     
     <div class="w3-col m6 w3-padding-large">
       <h1 class="w3-center">About The Project</h1><br>
-      <h6 class="w3-center">The United Nations Sustainable Goals for 2030</h6>
+      <h6 class="w3-center"><strong>The United Nations Sustainable Goals for 2030</strong></h6>
       <p class="w3-large">Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs. It contains within it two key concepts:<br>
 - The concept of 'needs', in particular, the essential needs of the world's poor, to which overriding priority should be given; and <br>
 - The idea of limitations imposed by the state of technology and social organization on the environment's ability to meet present and future needs.<br>
 https://en.wikipedia.org/wiki/Sustainable_development
 
-        <br><br>
-      My Goal and Individual Target:
+      <br><br>
+      <strong>My Goal and Individual Target:</strong>
       <br>
       </p>
-      <p class="w3-large">My Goal is to work on SDG#4, for Quality Education for all, in which my focus is creating Educational Awareness for Sustainable Devlopment Goals and to encourage for more Global Citizens. We work together to make it happen and create a better future for the present and future generation.
+      <p class="w3-large">My Goal is to focus on SDG#4, that states to ensure inclusive and Quality Education for all and promote life long learning, in which the Target 4.3 - Equal Access to Affordable Technical, Vocational and Higher Education. We work together to make it happen and create a better future for the present and future generation.
       </p>
     </div>
   </div>
-  
+  <br><br>
   <hr>
 
   <!-- Goals Section -->
-  <div class="w3-row w3-padding-64" id="goals">
+  <center> 
+  <div class="w3-row w3-padding-64" id="target">
+   
 
 <center> 
  <h2>Individual Targets for SDG#4 Quality Education</h2>
  <br><br>
+ <P>
+      <strong>Hover over the individual targets to view the description</strong>
+    </P>
 </center>
 <center>
 
@@ -132,22 +143,110 @@ https://en.wikipedia.org/wiki/Sustainable_development
 
 </div> <!-- slider end -->
 
- 
-    <br><br><br>
-    <P>
-      Hover over the individual image to view the individual target for Quality Education.
+    <!-- <P>
+      <strong>Hover over the individual targets to view the description. </strong>
     </P>
-<!-- <br><br>
-    <h4>Target 4.7 - Education for Sustainable Development & Global Citizenship</h4> -->
+<br><br> -->
+    <!-- <h4>Target 4.3 - Equal Access to Affordable Technical, Vocational and Higher Education.</h4> -->
 
 </center>
    
   </div>
-  <br><br>
+  </center> 
+  <br>
   <hr>
 
-   <!-- game1 Section -->
-<!--   <div class="w3-row w3-padding-64" id="game">
+ <!-- SDG Image Quote Section Begins -->
+ <!-- <center>
+  <div class="w3-container w3-padding-64" id="quotes">
+    <h1>Random Educational Quotes</h1><br>
+    <br><br>
+    
+    <div id = "quoteCtn">
+            <center>
+      <!-- <h2>Generate Random SDGs Quotes</h2> -->
+      <!-- <br><br>
+      <div id = "quoteTextCtn">
+         <!-- <img src="img/Q2.png" width="725" height="225" id="myPicture" alt="SDG image">  -->
+          <!-- <img src="img/Q1.png" id="myPicture" alt="SDG image">
+         <br><br>
+       <p id = "quoteText"></p>  -->
+        
+      <!-- <p id = "quoteText"></p> -->
+     
+      <!-- </div>
+          </center>
+    </div>
+    <br><br>
+     <center> -->
+      <!-- <button id = "quoteBtn">Click to Generate random SDG Quote</button> -->
+
+
+      <!-- <button id = "imgSDGBtn">Generate a Random SDG Quote!</button> -->
+      <!-- <br><br>
+      <span id="quoteButtons">
+      <span class="button" id="imgSDGBtn">
+      <a onclick="showImage();">Generate a Random Quote!</a>
+     </span> 
+      </span>
+      <script src="quotes.js"></script>
+
+   </center> -->
+
+   
+      
+      
+   <!-- Quote credit
+    https://yourstory.com/2017/04/kofi-annan
+     -->
+
+    
+  
+  <!-- <br><br><br> <br><br><br>
+     
+  </div>
+</center>
+<hr> --> 
+<!-- SDG Quote Image Section Ends -->
+
+
+<!-- SDG Image Quote Section Begins -->
+ <center>
+  <div class="w3-container w3-padding-64" id="quotes">
+    <h1>Educational Quotes</h1><br>
+    <br>
+     <div id = "quoteCtn">
+    <div id = "quoteTextCtn">
+      <img src="img/Q_one.png" height="175" width="175" id="myPicture" alt="SDG image">
+      <br> <br> <br>
+      <p id = "quoteText"></p>
+      <br>
+      <p id = "quoteAuthor"></p> 
+      <!-- <br>
+      <p id = "quoteSource"></p>      -->
+    </div>
+    </div>
+    <!-- <button id = "quoteBtn">Show New Quote</button> -->
+    <br><br>
+    <span id="quoteButtons">
+      <span class="button" id="quoteBtn">
+      <a onclick="showImage();">Click to display the Quote!</a>
+     </span> 
+      </span>
+      <script src="quotes.js"></script>
+
+   </center>
+  <br><br><br><br><br><br>
+     
+  </div>
+
+<hr>
+<!-- SDG Quote Image Section Ends -->
+
+   <!-- game Section Starts -->
+
+  <!-- <div class="w3-row w3-padding-64" id="game">
+    <h1>Match SDGs</h1><br>
 <div id="picbox1" id="game1">
   <span id="boxbuttons1">
     <span class="button">
@@ -160,86 +259,128 @@ https://en.wikipedia.org/wiki/Sustainable_development
   </span>
   <div id="boxcard1"></div>
 </div>
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./game.js"></script>
+
+  
+ <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./game.js"></script>
    
-  </div> -->
-  <br>
-  <hr>
+  </div>
+
+  <hr>  -->
+
+<!-- game Section Ends -->
 
  <!-- Data Viz Section -->
+
+  
+  
   <center>
   <div class="w3-container w3-padding-64" id="dataviz">
-    <h6> Hover over the individual image to view the most and least SDG score for the respective regions. Click the image for the detailed data analysis.</h6><br>
+    <h6> <strong>Click the respective SDGs to open the Data Analysis and Visualization in Tableau</strong></h6><br>
    
     <div id="map-wrapper">
           
       <div class="picture picture-1">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="MENA" /></a>
-        <div class="caption">MENA has the score of 94.15% in No Poverty and least score of 44.65% in Gender Equality.
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="MENA" />
+        <div class="caption"><b>MENA</b><br>(Middle East & North Africa)<br> No Poverty - 94.15<br>Gender Equality -  44.65
         </div>
+          </a>
       </div>
 
             
       <div class="picture picture-3">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="OECD" /></a>
-        <div class="caption">OECD has the score of 98.85% in No Poverty and least score of 57.04% in Responsible Consumption & Production.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="OECD" />
+        <div class="caption"><b>OECD</b><br>(Organisation for Economic Co-operation and Development)<br>No Poverty - 98.85 <br>Responsible Consumption & Production - 57.04
+        </div>
+          </a>
       </div>
         
       <div class="picture picture-4">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="Oceania" /></a>
-        <div class="caption">Oceania has the score of 94.59% in climate Action and least score of 22.84% in Industry Innovation and Infrastructure.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="Oceania" />
+        <div class="caption"><b>Oceania</b> <br> Climate Action - 94.59 <br> Industry Innovation and Infrastructure - 22.84 
+        </div>
+          </a>
       </div>
 
       <div class="picture picture-5">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="LAC" /></a>
-        <div class="caption">LAC has the score of 86.48% in climate Action and least score of 30.55% in Industry Innovation and Infrastructure.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="LAC" />
+        <div class="caption"><b>LAC </b><br>(Latin America and the Caribbean)<br> Climate Action - 86.48<br> Industry Innovation and Infrastructure - 30.55
+        </div>
+          </a>
       </div>
 
       <div class="picture picture-6">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="E.Europe & C.Asia" /></a>
-        <div class="caption">E.Europe & C.Asia has the score of 92.20% in No Poverty and least score of 39.16% in Industry Innovation and Infrastructure.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/1.jpg" alt="E.Europe & C.Asia" />
+        <div class="caption"><b>E.Europe & C.Asia</b> <br>No Poverty - 92.20<br> Industry Innovation and Infrastructure - 39.16
+        </div>
+          </a>
       </div>
 
       <div class="picture picture-7">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="Africa" /></a>
-        <div class="caption">Africa has the score of 96.49% in climate Action and least score of 17.48% in Industry Innovation and Infrastructure.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="Africa" />
+        <div class="caption"><b>Africa</b> <br>Climate Action - 96.49<br> Industry Innovation and Infrastructure - 17.48
+        </div>
+          </a>
       </div>
 
       <div class="picture picture-8">
-        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="East & South Asia" /></a>
-        <div class="caption">East & South Asia has the score of 86.03% in climate Action and least score of 41.24% in Industry Innovation and Infrastructure.</div>
+        <a href="https://public.tableau.com/profile/senviz#!/vizhome/SDGsVizAnalysis1/StorySDGs?publish=yes" target="_blank"><img src="img/13.jpg" alt="East & South Asia" />
+        <div class="caption"><b>East & South Asia</b> <br>Climate Action - 86.03 <br>Industry Innovation and Infrastructure - 41.24
+        </div>
+          </a>
       </div>
   
       </div>
+      </div>
 </center>
-</div>
-  <br>
+
   <hr>
+
+  <!-- Adobe Spark SDG Video Section -->
+ <center>
+  <div class="w3-container w3-padding-64" id="mygoal">
+    <h1>My Goal</h1><br>
+    <br>
+    <iframe src="https://spark.adobe.com/video/8keX7MpgPqNsj/embed"  width="560" height="315" frameborder="0" allowfullscreen></iframe> 
+  
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+
+     
+  </div>
+</center>
+
+<hr>
 
   <!-- Credit Section -->
  <center>
   <div class="w3-container w3-padding-64" id="credit">
-    <h1>Credit</h1><br>
-    <br><br><br><br>
-    <p>Providence Public Library - Rhode Coders | Tableau
-    <br><br>
+    <h1>Credit</h1>
+    <br>
     Roger Williams University - Thriving in a Global World
     <br><br>
-    Web Template - W3Schools
-<!--     <br><br>
-    Memory Game - Inspired by CodePen | jQuery Picture Memory Game -->
+    <p>Providence Public Library - Rhode Coders | Data Navigators
     <br><br>
-    The Sustainable Development Goals (SDGs) logo & icons <br> https://sdgs.un.org/
+    <a href="https://www.wemakechange.org/" target="_blank">https://www.wemakechange.org/</a>
+      <br><br>
+    
+    <a href="https://sdgs.un.org" target="_blank">https://sdgs.un.org</a>
+    <br><br>
+
+      
+    <!-- <a href="https://www.w3schools.com" target="_blank">https://www.w3schools.com</a>
+    
+    Memory Game - Inspired by CodePen | jQuery Picture Memory Game
+    <br><br> -->
+    <!-- SDGs icons <br> https://sdgs.un.org/ -->
     </p>
-  <br><br><br>
+  <br>
      
   </div>
 </center>
 <!-- End page content -->
-  </div>
+  
 <!-- Footer -->
-
+<!-- <hr> -->
+<hr style="height:1px; border:none; color:#000; background-color:#000; width:100%; text-align:left; margin: 0 auto 0 0;">
   <center><p>United Nations Sustainable Development Goals for 2030</p></center>
 
 
